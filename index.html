@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Compose Mail</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://smtpjs.com/v3/smtp.js"></script>  
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="heading">Compose Mail</div>
+            <form id="form" method="post">
+                <label>From:</label>
+                <input id="from" type="email" ><br>
+                <label>To:</label>
+                <input id="to" type="email"><br>
+                <label>Subject:</label>
+                <input id="subject" type="text" ><br>
+                <label>Message:</label>
+                <input id="message" type="text"><br>
+
+                <input type="button" value="Send" onclick="sent()"><br>
+
+            </form>
+        </div>
+    </body>
+</html>

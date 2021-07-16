@@ -1,0 +1,23 @@
+#main{
+    background-color: antiquewhite;
+    height: 550px;
+    width: 500px;
+    align-self: center;
+    padding: 5px;
+}
+#heading{
+    margin: auto;
+    width: 50%;
+    font-size: 40px;
+}
+label{
+    font-size: 20px;
+    margin: 5px;
+}
+input{
+    padding: 8px;
+    margin: 6px;
+    width: 94%;
+    font-size: 17px;
+    border-radius: 15px;
+}
